@@ -1,0 +1,1386 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".daftarkosakata.KataSifat">
+
+
+    <ScrollView
+        android:id="@+id/scroll1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+
+            <TextView
+                android:id="@+id/textView"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentTop="true"
+                android:layout_centerHorizontal="true"
+                android:layout_marginTop="20dp"
+                android:text="KATA SIFAT"
+                android:textAppearance="?android:attr/textAppearanceLarge" />
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="50dp"
+                android:orientation="horizontal"
+                android:padding="1dp">
+
+                <Button
+                    android:layout_width="130dp"
+                    android:layout_height="wrap_content"
+                    android:text="あおい" />
+
+                <Button
+                    android:layout_width="206dp"
+                    android:layout_height="wrap_content"
+                    android:text="biru" />
+
+                <Button
+                    android:id="@+id/btnPlay"
+                    android:layout_width="71dp"
+                    android:layout_height="wrap_content"
+                    android:text="PLAY" />
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="90dp"
+                android:orientation="horizontal"
+                android:padding="1dp">
+
+                <Button
+                    android:layout_width="130dp"
+                    android:layout_height="wrap_content"
+                    android:text="あぶない " />
+
+                <Button
+                    android:layout_width="206dp"
+                    android:layout_height="wrap_content"
+                    android:text="bahaya" />
+
+                <Button
+                    android:id="@+id/btnPlay1"
+                    android:layout_width="71dp"
+                    android:layout_height="wrap_content"
+                    android:text="PLAY" />
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="130dp"
+                android:orientation="horizontal"
+                android:padding="1dp">
+
+                <Button
+                    android:layout_width="130dp"
+                    android:layout_height="wrap_content"
+                    android:text="あかい" />
+
+                <Button
+                    android:layout_width="206dp"
+                    android:layout_height="wrap_content"
+                    android:text="merah" />
+
+                <Button
+                    android:id="@+id/btnPlay2"
+                    android:layout_width="71dp"
+                    android:layout_height="wrap_content"
+                    android:text="PLAY" />
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="170dp"
+                android:orientation="horizontal"
+                android:padding="1dp">
+
+                <Button
+                    android:layout_width="130dp"
+                    android:layout_height="wrap_content"
+                    android:text="あかるい" />
+
+                <Button
+                    android:layout_width="206dp"
+                    android:layout_height="wrap_content"
+                    android:text="terang/cerah" />
+
+                <Button
+                    android:id="@+id/btnPlay3"
+                    android:layout_width="71dp"
+                    android:layout_height="wrap_content"
+                    android:text="PLAY" />
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="170dp"
+                android:orientation="horizontal"
+                android:padding="1dp">
+
+                <Button
+                    android:layout_width="130dp"
+                    android:layout_height="wrap_content"
+                    android:text="あまい " />
+
+                <Button
+                    android:layout_width="206dp"
+                    android:layout_height="wrap_content"
+                    android:text="manis" />
+
+                <Button
+                    android:id="@+id/btnPlay4"
+                    android:layout_width="71dp"
+                    android:layout_height="wrap_content"
+                    android:text="PLAY" />
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="210dp"
+                android:orientation="horizontal"
+                android:padding="1dp">
+
+                <Button
+                    android:layout_width="130dp"
+                    android:layout_height="wrap_content"
+                    android:text="あたらしい" />
+
+                <Button
+                    android:layout_width="206dp"
+                    android:layout_height="wrap_content"
+                    android:text="baru" />
+
+                <Button
+                    android:id="@+id/btnPlay5"
+                    android:layout_width="71dp"
+                    android:layout_height="wrap_content"
+                    android:text="PLAY" />
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="250dp"
+                android:orientation="horizontal"
+                android:padding="1dp">
+
+                <Button
+                    android:layout_width="130dp"
+                    android:layout_height="wrap_content"
+                    android:text="あたたかい" />
+
+                <Button
+                    android:layout_width="206dp"
+                    android:layout_height="wrap_content"
+                    android:text="hangat" />
+
+                <Button
+                    android:id="@+id/btnPlay6"
+                    android:layout_width="71dp"
+                    android:layout_height="wrap_content"
+                    android:text="PLAY" />
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="290dp"
+                android:orientation="horizontal"
+                android:padding="1dp">
+
+                <Button
+                    android:layout_width="130dp"
+                    android:layout_height="wrap_content"
+                    android:text="あつい " />
+
+                <Button
+                    android:layout_width="206dp"
+                    android:layout_height="wrap_content"
+                    android:text="tebal/dalam" />
+
+                <Button
+                    android:id="@+id/btnPlay7"
+                    android:layout_width="71dp"
+                    android:layout_height="wrap_content"
+                    android:text="PLAY" />
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="330dp"
+                android:orientation="horizontal"
+                android:padding="1dp">
+
+                <Button
+                    android:layout_width="130dp"
+                    android:layout_height="wrap_content"
+                    android:text="ちいさい" />
+
+                <Button
+                    android:layout_width="206dp"
+                    android:layout_height="wrap_content"
+                    android:text="kecil" />
+
+                <Button
+                    android:id="@+id/btnPlay8"
+                    android:layout_width="71dp"
+                    android:layout_height="wrap_content"
+                    android:text="PLAY" />
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="370dp"
+                android:orientation="horizontal"
+                android:padding="1dp">
+
+                <Button
+                    android:layout_width="130dp"
+                    android:layout_height="wrap_content"
+                    android:text="ちかい" />
+
+                <Button
+                    android:layout_width="206dp"
+                    android:layout_height="wrap_content"
+                    android:text="dekat" />
+
+                <Button
+                    android:id="@+id/btnPlay9"
+                    android:layout_width="71dp"
+                    android:layout_height="wrap_content"
+                    android:text="PLAY" />
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="410dp"
+                android:orientation="horizontal"
+                android:padding="1dp">
+
+                <Button
+                    android:layout_width="130dp"
+                    android:layout_height="wrap_content"
+                    android:text="ふるい" />
+
+                <Button
+                    android:layout_width="206dp"
+                    android:layout_height="wrap_content"
+                    android:text="kuno/tua" />
+
+                <Button
+                    android:id="@+id/btnPlay10"
+                    android:layout_width="71dp"
+                    android:layout_height="wrap_content"
+                    android:text="PLAY" />
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="450dp"
+                android:orientation="horizontal"
+                android:padding="1dp">
+
+                <Button
+                    android:layout_width="130dp"
+                    android:layout_height="wrap_content"
+                    android:text="ふとい" />
+
+                <Button
+                    android:layout_width="206dp"
+                    android:layout_height="wrap_content"
+                    android:text="gemuk" />
+
+                <Button
+                    android:id="@+id/btnPlay11"
+                    android:layout_width="71dp"
+                    android:layout_height="wrap_content"
+                    android:text="PLAY" />
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="490dp"
+                android:orientation="horizontal"
+                android:padding="1dp">
+
+                <Button
+                    android:layout_width="130dp"
+                    android:layout_height="wrap_content"
+                    android:text="はやい " />
+
+                <Button
+                    android:layout_width="206dp"
+                    android:layout_height="wrap_content"
+                    android:text="cepat" />
+
+                <Button
+                    android:id="@+id/btnPlay12"
+                    android:layout_width="71dp"
+                    android:layout_height="wrap_content"
+                    android:text="PLAY" />
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="530dp"
+                android:orientation="horizontal"
+                android:padding="1dp">
+
+                <Button
+                    android:layout_width="130dp"
+                    android:layout_height="wrap_content"
+                    android:text="ひくい" />
+
+                <Button
+                    android:layout_width="206dp"
+                    android:layout_height="wrap_content"
+                    android:text="rendah" />
+
+                <Button
+                    android:id="@+id/btnPlay13"
+                    android:layout_width="71dp"
+                    android:layout_height="wrap_content"
+                    android:text="PLAY" />
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="570dp"
+                android:orientation="horizontal"
+                android:padding="1dp">
+
+                <Button
+                    android:layout_width="130dp"
+                    android:layout_height="wrap_content"
+                    android:text="ひろい" />
+
+                <Button
+                    android:layout_width="206dp"
+                    android:layout_height="wrap_content"
+                    android:text="luas(lapang)" />
+
+                <Button
+                    android:id="@+id/btnPlay14"
+                    android:layout_width="71dp"
+                    android:layout_height="wrap_content"
+                    android:text="PLAY" />
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="610dp"
+                android:orientation="horizontal"
+                android:padding="1dp">
+
+                <Button
+                    android:layout_width="130dp"
+                    android:layout_height="wrap_content"
+                    android:text="ほしい" />
+
+                <Button
+                    android:layout_width="206dp"
+                    android:layout_height="wrap_content"
+                    android:text="ingin" />
+
+                <Button
+                    android:id="@+id/btnPlay15"
+                    android:layout_width="71dp"
+                    android:layout_height="wrap_content"
+                    android:text="PLAY" />
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="650dp"
+                android:orientation="horizontal"
+                android:padding="1dp">
+
+                <Button
+                    android:layout_width="130dp"
+                    android:layout_height="wrap_content"
+                    android:text="ほそい" />
+
+                <Button
+                    android:layout_width="206dp"
+                    android:layout_height="wrap_content"
+                    android:text="kurus" />
+
+                <Button
+                    android:id="@+id/btnPlay16"
+                    android:layout_width="71dp"
+                    android:layout_height="wrap_content"
+                    android:text="PLAY" />
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="690dp"
+                android:orientation="horizontal"
+                android:padding="1dp">
+
+                <Button
+                    android:layout_width="130dp"
+                    android:layout_height="wrap_content"
+                    android:text="よい" />
+
+                <Button
+                    android:layout_width="206dp"
+                    android:layout_height="wrap_content"
+                    android:text="baik/bagus" />
+
+                <Button
+                    android:id="@+id/btnPlay17"
+                    android:layout_width="71dp"
+                    android:layout_height="wrap_content"
+                    android:text="PLAY" />
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="730dp"
+                android:padding="1dp">
+
+                <Button
+                    android:layout_width="130dp"
+                    android:layout_height="wrap_content"
+                    android:text="いそがしい" />
+
+                <Button
+                    android:layout_width="206dp"
+                    android:layout_height="wrap_content"
+                    android:text="sibuk" />
+
+                <Button
+                    android:id="@+id/btnPlay18"
+                    android:layout_width="71dp"
+                    android:layout_height="wrap_content"
+                    android:text="PLAY" />
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="770dp"
+                android:padding="1dp">
+
+                <Button
+                    android:layout_width="130dp"
+                    android:layout_height="wrap_content"
+                    android:text="いたい" />
+
+                <Button
+                    android:layout_width="206dp"
+                    android:layout_height="wrap_content"
+                    android:text="sakit" />
+
+                <Button
+                    android:id="@+id/btnPlay19"
+                    android:layout_width="71dp"
+                    android:layout_height="wrap_content"
+                    android:text="PLAY" />
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="810dp"
+                android:padding="1dp">
+
+                <Button
+                    android:layout_width="130dp"
+                    android:layout_height="wrap_content"
+                    android:text="からい" />
+
+                <Button
+                    android:layout_width="206dp"
+                    android:layout_height="wrap_content"
+                    android:text="pedas/asin" />
+
+                <Button
+                    android:id="@+id/btnPlay20"
+                    android:layout_width="71dp"
+                    android:layout_height="wrap_content"
+                    android:text="PLAY" />
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="850dp"
+                android:padding="1dp">
+
+                <Button
+                    android:layout_width="130dp"
+                    android:layout_height="wrap_content"
+                    android:text="かるい" />
+
+                <Button
+                    android:layout_width="206dp"
+                    android:layout_height="wrap_content"
+                    android:text="ringan" />
+
+                <Button
+                    android:id="@+id/btnPlay21"
+                    android:layout_width="71dp"
+                    android:layout_height="wrap_content"
+                    android:text="PLAY" />
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="890dp"
+                android:padding="1dp">
+
+                <Button
+                    android:layout_width="130dp"
+                    android:layout_height="wrap_content"
+                    android:text="かわいい" />
+
+                <Button
+                    android:layout_width="206dp"
+                    android:layout_height="wrap_content"
+                    android:text="manis/mungil" />
+
+                <Button
+                    android:id="@+id/btnPlay22"
+                    android:layout_width="71dp"
+                    android:layout_height="wrap_content"
+                    android:text="PLAY" />
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="930dp"
+                android:padding="1dp">
+
+                <Button
+                    android:layout_width="130dp"
+                    android:layout_height="wrap_content"
+                    android:text="きいろい" />
+
+                <Button
+                    android:layout_width="206dp"
+                    android:layout_height="wrap_content"
+                    android:text="kuning" />
+
+                <Button
+                    android:id="@+id/btnPlay23"
+                    android:layout_width="71dp"
+                    android:layout_height="wrap_content"
+                    android:text="PLAY" />
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="970dp"
+                android:padding="1dp">
+
+                <Button
+                    android:layout_width="130dp"
+                    android:layout_height="wrap_content"
+                    android:text="きたない" />
+
+                <Button
+                    android:layout_width="206dp"
+                    android:layout_height="wrap_content"
+                    android:text="kotor" />
+
+                <Button
+                    android:id="@+id/btnPlay24"
+                    android:layout_width="71dp"
+                    android:layout_height="wrap_content"
+                    android:text="PLAY" />
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="1010dp"
+                android:padding="1dp">
+
+                <Button
+                    android:layout_width="130dp"
+                    android:layout_height="wrap_content"
+                    android:text="くらい" />
+
+                <Button
+                    android:layout_width="206dp"
+                    android:layout_height="wrap_content"
+                    android:text="gelap" />
+
+                <Button
+                    android:id="@+id/btnPlay25"
+                    android:layout_width="71dp"
+                    android:layout_height="wrap_content"
+                    android:text="PLAY" />
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="1050dp"
+                android:padding="1dp">
+
+                <Button
+                    android:layout_width="130dp"
+                    android:layout_height="wrap_content"
+                    android:text="くろい" />
+
+                <Button
+                    android:layout_width="206dp"
+                    android:layout_height="wrap_content"
+                    android:text="hitam" />
+
+                <Button
+                    android:id="@+id/btnPlay26"
+                    android:layout_width="71dp"
+                    android:layout_height="wrap_content"
+                    android:text="PLAY" />
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="1090dp"
+                android:padding="1dp">
+
+                <Button
+                    android:layout_width="130dp"
+                    android:layout_height="wrap_content"
+                    android:text="まるい" />
+
+                <Button
+                    android:layout_width="206dp"
+                    android:layout_height="wrap_content"
+                    android:text="bulat/bundar" />
+
+                <Button
+                    android:id="@+id/btnPlay27"
+                    android:layout_width="71dp"
+                    android:layout_height="wrap_content"
+                    android:text="PLAY" />
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="1130dp"
+                android:padding="1dp">
+
+                <Button
+                    android:layout_width="130dp"
+                    android:layout_height="wrap_content"
+                    android:text="まずい" />
+
+                <Button
+                    android:layout_width="206dp"
+                    android:layout_height="wrap_content"
+                    android:text="tidak enak/tawar" />
+
+                <Button
+                    android:id="@+id/btnPlay28"
+                    android:layout_width="71dp"
+                    android:layout_height="wrap_content"
+                    android:text="PLAY" />
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="1170dp"
+                android:padding="1dp">
+
+                <Button
+                    android:layout_width="130dp"
+                    android:layout_height="wrap_content"
+                    android:text="みじかい" />
+
+                <Button
+                    android:layout_width="206dp"
+                    android:layout_height="wrap_content"
+                    android:text="pendek" />
+
+                <Button
+                    android:id="@+id/btnPlay29"
+                    android:layout_width="71dp"
+                    android:layout_height="wrap_content"
+                    android:text="PLAY" />
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="1210dp"
+                android:padding="1dp">
+
+                <Button
+                    android:layout_width="130dp"
+                    android:layout_height="wrap_content"
+                    android:text="むずかし" />
+
+                <Button
+                    android:layout_width="206dp"
+                    android:layout_height="wrap_content"
+                    android:text="sulit" />
+
+                <Button
+                    android:id="@+id/btnPlay30"
+                    android:layout_width="71dp"
+                    android:layout_height="wrap_content"
+                    android:text="PLAY" />
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="1250dp"
+                android:padding="1dp">
+
+                <Button
+                    android:layout_width="130dp"
+                    android:layout_height="wrap_content"
+                    android:text="ながい" />
+
+                <Button
+                    android:layout_width="206dp"
+                    android:layout_height="wrap_content"
+                    android:text="panjang" />
+
+                <Button
+                    android:id="@+id/btnPlay31"
+                    android:layout_width="71dp"
+                    android:layout_height="wrap_content"
+                    android:text="PLAY" />
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="1290dp"
+                android:padding="1dp">
+
+                <Button
+                    android:layout_width="130dp"
+                    android:layout_height="wrap_content"
+                    android:text="ぬるい" />
+
+                <Button
+                    android:layout_width="206dp"
+                    android:layout_height="wrap_content"
+                    android:text="tidak cukup(panas/dingin)" />
+
+                <Button
+                    android:id="@+id/btnPlay32"
+                    android:layout_width="71dp"
+                    android:layout_height="wrap_content"
+                    android:text="PLAY" />
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="1330dp"
+                android:padding="1dp">
+
+                <Button
+                    android:layout_width="130dp"
+                    android:layout_height="wrap_content"
+                    android:text="おいしい" />
+
+                <Button
+                    android:layout_width="206dp"
+                    android:layout_height="wrap_content"
+                    android:text="enak" />
+
+                <Button
+                    android:id="@+id/btnPlay33"
+                    android:layout_width="71dp"
+                    android:layout_height="wrap_content"
+                    android:text="PLAY" />
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="1370dp"
+                android:padding="1dp">
+
+                <Button
+                    android:layout_width="130dp"
+                    android:layout_height="wrap_content"
+                    android:text="おもい" />
+
+                <Button
+                    android:layout_width="206dp"
+                    android:layout_height="wrap_content"
+                    android:text="berat" />
+
+                <Button
+                    android:id="@+id/btnPlay34"
+                    android:layout_width="71dp"
+                    android:layout_height="wrap_content"
+                    android:text="PLAY" />
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="1410dp"
+                android:padding="1dp">
+
+                <Button
+                    android:layout_width="130dp"
+                    android:layout_height="wrap_content"
+                    android:text="おもしろい" />
+
+                <Button
+                    android:layout_width="206dp"
+                    android:layout_height="wrap_content"
+                    android:text="menarik" />
+
+                <Button
+                    android:id="@+id/btnPlay35"
+                    android:layout_width="71dp"
+                    android:layout_height="wrap_content"
+                    android:text="PLAY" />
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="1450dp"
+                android:padding="1dp">
+
+                <Button
+                    android:layout_width="130dp"
+                    android:layout_height="wrap_content"
+                    android:text="おおい" />
+
+                <Button
+                    android:layout_width="206dp"
+                    android:layout_height="wrap_content"
+                    android:text="banyak" />
+
+                <Button
+                    android:id="@+id/btnPlay36"
+                    android:layout_width="71dp"
+                    android:layout_height="wrap_content"
+                    android:text="PLAY" />
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="1490dp"
+                android:padding="1dp">
+
+                <Button
+                    android:layout_width="130dp"
+                    android:layout_height="wrap_content"
+                    android:text="おおき" />
+
+                <Button
+                    android:layout_width="206dp"
+                    android:layout_height="wrap_content"
+                    android:text="besar" />
+
+                <Button
+                    android:id="@+id/btnPlay37"
+                    android:layout_width="71dp"
+                    android:layout_height="wrap_content"
+                    android:text="PLAY" />
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="1530dp"
+                android:padding="1dp">
+
+                <Button
+                    android:layout_width="130dp"
+                    android:layout_height="wrap_content"
+                    android:text="おそい " />
+
+                <Button
+                    android:layout_width="206dp"
+                    android:layout_height="wrap_content"
+                    android:text="lambat" />
+
+                <Button
+                    android:id="@+id/btnPlay38"
+                    android:layout_width="71dp"
+                    android:layout_height="wrap_content"
+                    android:text="PLAY" />
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="1570dp"
+                android:padding="1dp">
+
+                <Button
+                    android:layout_width="130dp"
+                    android:layout_height="wrap_content"
+                    android:text="さむい" />
+
+                <Button
+                    android:layout_width="206dp"
+                    android:layout_height="wrap_content"
+                    android:text="dingin(cuaca)" />
+
+                <Button
+                    android:id="@+id/btnPlay39"
+                    android:layout_width="71dp"
+                    android:layout_height="wrap_content"
+                    android:text="PLAY" />
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="1610dp"
+                android:padding="1dp">
+
+                <Button
+                    android:layout_width="130dp"
+                    android:layout_height="wrap_content"
+                    android:text="せまい" />
+
+                <Button
+                    android:layout_width="206dp"
+                    android:layout_height="wrap_content"
+                    android:text="sempit" />
+
+                <Button
+                    android:id="@+id/btnPlay40"
+                    android:layout_width="71dp"
+                    android:layout_height="wrap_content"
+                    android:text="PLAY" />
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="1650dp"
+                android:padding="1dp">
+
+                <Button
+                    android:layout_width="130dp"
+                    android:layout_height="wrap_content"
+                    android:text="しろい" />
+
+                <Button
+                    android:layout_width="206dp"
+                    android:layout_height="wrap_content"
+                    android:text="putih" />
+
+                <Button
+                    android:id="@+id/btnPlay41"
+                    android:layout_width="71dp"
+                    android:layout_height="wrap_content"
+                    android:text="PLAY" />
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="1690dp"
+                android:padding="1dp">
+
+                <Button
+                    android:layout_width="130dp"
+                    android:layout_height="wrap_content"
+                    android:text="すくない" />
+
+                <Button
+                    android:layout_width="206dp"
+                    android:layout_height="wrap_content"
+                    android:text="sedikit" />
+
+                <Button
+                    android:id="@+id/btnPlay42"
+                    android:layout_width="71dp"
+                    android:layout_height="wrap_content"
+                    android:text="PLAY" />
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="1730dp"
+                android:padding="1dp">
+
+                <Button
+                    android:layout_width="130dp"
+                    android:layout_height="wrap_content"
+                    android:text="すずし" />
+
+                <Button
+                    android:layout_width="206dp"
+                    android:layout_height="wrap_content"
+                    android:text="sejuk" />
+
+                <Button
+                    android:id="@+id/btnPlay43"
+                    android:layout_width="71dp"
+                    android:layout_height="wrap_content"
+                    android:text="PLAY" />
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="1770dp"
+                android:padding="1dp">
+
+                <Button
+                    android:layout_width="130dp"
+                    android:layout_height="wrap_content"
+                    android:text="たかい" />
+
+                <Button
+                    android:layout_width="206dp"
+                    android:layout_height="wrap_content"
+                    android:text="mahal" />
+
+                <Button
+                    android:id="@+id/btnPlay44"
+                    android:layout_width="71dp"
+                    android:layout_height="wrap_content"
+                    android:text="PLAY" />
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="1810dp"
+                android:padding="1dp">
+
+                <Button
+                    android:layout_width="130dp"
+                    android:layout_height="wrap_content"
+                    android:text="たのしい" />
+
+                <Button
+                    android:layout_width="206dp"
+                    android:layout_height="wrap_content"
+                    android:text="menyenangkan" />
+
+                <Button
+                    android:id="@+id/btnPlay45"
+                    android:layout_width="71dp"
+                    android:layout_height="wrap_content"
+                    android:text="PLAY" />
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="1850dp"
+                android:padding="1dp">
+
+                <Button
+                    android:layout_width="130dp"
+                    android:layout_height="wrap_content"
+                    android:text="とおい " />
+
+                <Button
+                    android:layout_width="206dp"
+                    android:layout_height="wrap_content"
+                    android:text="jauh" />
+
+                <Button
+                    android:id="@+id/btnPlay46"
+                    android:layout_width="71dp"
+                    android:layout_height="wrap_content"
+                    android:text="PLAY" />
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="1890dp"
+                android:padding="1dp">
+
+                <Button
+                    android:layout_width="130dp"
+                    android:layout_height="wrap_content"
+                    android:text="つまらない " />
+
+                <Button
+                    android:layout_width="206dp"
+                    android:layout_height="wrap_content"
+                    android:text="membosankan" />
+
+                <Button
+                    android:id="@+id/btnPlay47"
+                    android:layout_width="71dp"
+                    android:layout_height="wrap_content"
+                    android:text="PLAY" />
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="1930dp"
+                android:padding="1dp">
+
+                <Button
+                    android:layout_width="130dp"
+                    android:layout_height="wrap_content"
+                    android:text="つめたい " />
+
+                <Button
+                    android:layout_width="206dp"
+                    android:layout_height="wrap_content"
+                    android:text="dingin(benda)" />
+
+                <Button
+                    android:id="@+id/btnPlay48"
+                    android:layout_width="71dp"
+                    android:layout_height="wrap_content"
+                    android:text="PLAY" />
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="1970dp"
+                android:padding="1dp">
+
+                <Button
+                    android:layout_width="130dp"
+                    android:layout_height="wrap_content"
+                    android:text="つよい " />
+
+                <Button
+                    android:layout_width="206dp"
+                    android:layout_height="wrap_content"
+                    android:text="kuat" />
+
+                <Button
+                    android:id="@+id/btnPlay49"
+                    android:layout_width="71dp"
+                    android:layout_height="wrap_content"
+                    android:text="PLAY" />
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="2010dp"
+                android:padding="1dp">
+
+                <Button
+                    android:layout_width="130dp"
+                    android:layout_height="wrap_content"
+                    android:text="うるさい" />
+
+                <Button
+                    android:layout_width="206dp"
+                    android:layout_height="wrap_content"
+                    android:text="berisik" />
+
+                <Button
+                    android:id="@+id/btnPlay50"
+                    android:layout_width="71dp"
+                    android:layout_height="wrap_content"
+                    android:text="PLAY" />
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="2050dp"
+                android:padding="1dp">
+
+                <Button
+                    android:layout_width="130dp"
+                    android:layout_height="wrap_content"
+                    android:text="うすい" />
+
+                <Button
+                    android:layout_width="206dp"
+                    android:layout_height="wrap_content"
+                    android:text="tipis" />
+
+                <Button
+                    android:id="@+id/btnPlay51"
+                    android:layout_width="71dp"
+                    android:layout_height="wrap_content"
+                    android:text="PLAY" />
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="2090dp"
+                android:padding="1dp">
+
+                <Button
+                    android:layout_width="130dp"
+                    android:layout_height="wrap_content"
+                    android:text="わかい " />
+
+                <Button
+                    android:layout_width="206dp"
+                    android:layout_height="wrap_content"
+                    android:text="muda" />
+
+                <Button
+                    android:id="@+id/btnPlay52"
+                    android:layout_width="71dp"
+                    android:layout_height="wrap_content"
+                    android:text="PLAY" />
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="2130dp"
+                android:padding="1dp">
+
+                <Button
+                    android:layout_width="130dp"
+                    android:layout_height="wrap_content"
+                    android:text="わるい" />
+
+                <Button
+                    android:layout_width="206dp"
+                    android:layout_height="wrap_content"
+                    android:text="jelek" />
+
+                <Button
+                    android:id="@+id/btnPlay53"
+                    android:layout_width="71dp"
+                    android:layout_height="wrap_content"
+                    android:text="PLAY" />
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="2170dp"
+                android:padding="1dp">
+
+                <Button
+                    android:layout_width="130dp"
+                    android:layout_height="wrap_content"
+                    android:text="やさしい" />
+
+                <Button
+                    android:layout_width="206dp"
+                    android:layout_height="wrap_content"
+                    android:text="mudah/gampang" />
+
+                <Button
+                    android:id="@+id/btnPlay54"
+                    android:layout_width="71dp"
+                    android:layout_height="wrap_content"
+                    android:text="PLAY" />
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="2210dp"
+                android:padding="1dp">
+
+                <Button
+                    android:layout_width="130dp"
+                    android:layout_height="wrap_content"
+                    android:text="やすい" />
+
+                <Button
+                    android:layout_width="206dp"
+                    android:layout_height="wrap_content"
+                    android:text="murah" />
+
+                <Button
+                    android:id="@+id/btnPlay55"
+                    android:layout_width="71dp"
+                    android:layout_height="wrap_content"
+                    android:text="PLAY" />
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="2250dp"
+                android:padding="1dp">
+
+                <Button
+                    android:layout_width="130dp"
+                    android:layout_height="wrap_content"
+                    android:text="やすい" />
+
+                <Button
+                    android:layout_width="206dp"
+                    android:layout_height="wrap_content"
+                    android:text="murah" />
+
+                <Button
+                    android:id="@+id/btnPlay56"
+                    android:layout_width="71dp"
+                    android:layout_height="wrap_content"
+                    android:text="PLAY" />
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="2290dp"
+                android:padding="1dp">
+
+                <Button
+                    android:layout_width="130dp"
+                    android:layout_height="wrap_content"
+                    android:text="よわい" />
+
+                <Button
+                    android:layout_width="206dp"
+                    android:layout_height="wrap_content"
+                    android:text="lemah" />
+
+                <Button
+                    android:id="@+id/btnPlay57"
+                    android:layout_width="71dp"
+                    android:layout_height="wrap_content"
+                    android:text="PLAY" />
+            </LinearLayout>
+
+        </RelativeLayout>
+    </ScrollView>
+
+
+
+</RelativeLayout>

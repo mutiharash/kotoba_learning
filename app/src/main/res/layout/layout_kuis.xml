@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:gravity="center"
+    tools:context=".kuiskosakata.KuisKosakata">
+
+    <Button
+        android:id="@+id/kata_benda"
+        android:layout_width="200dp"
+        android:layout_height="87dp"
+        android:layout_margin="10dp"
+        android:background="@drawable/drw_daftar"
+        android:onClick="kuisKataBenda"
+        android:text="KUIS KATA BENDA"
+        android:textColor="#F4A460"
+        android:textSize="20sp" />
+
+    <Button
+        android:id="@+id/kata_kerja"
+        android:layout_width="200dp"
+        android:layout_height="82dp"
+        android:layout_margin="10dp"
+        android:background="@drawable/drw_daftar"
+        android:onClick="kuisKataKerja"
+        android:text="KUIS KATA KERJA"
+        android:textColor="#F4A460"
+        android:textSize="20sp" />
+
+    <Button
+        android:id="@+id/kata_sifat"
+        android:layout_width="200dp"
+        android:layout_height="69dp"
+        android:layout_margin="10dp"
+        android:background="@drawable/drw_daftar"
+        android:onClick="kuisKataSifat"
+        android:text="KUIS KATA SIFAT"
+        android:textColor="#F4A460"
+        android:textSize="20sp" />
+
+</LinearLayout>
